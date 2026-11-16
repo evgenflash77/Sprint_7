@@ -1,19 +1,11 @@
 package list;
 
 import io.qameta.allure.Description;
-import io.restassured.RestAssured;
-import org.junit.Before;
 import org.junit.Test;
 import steps.ListSteps;
 import io.restassured.response.Response;
 
-public class ListOrdersTest {
-
-    @Before
-    public void setUp() {
-
-        RestAssured.baseURI = "https://qa-scooter.praktikum-services.ru";
-    }
+public class ListOrdersTest extends BaseApiTestList {
 
     @Test
     @Description("Проверка получения списка всех заказов. Ожидается статус 200 и корректная структура JSON.")

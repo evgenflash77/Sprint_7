@@ -5,9 +5,7 @@ import model.CourierModel;
 import model.LoginModel;
 import org.hamcrest.CoreMatchers;
 import org.junit.After;
-
 import org.junit.Test;
-
 import static data.CourierData.FIRSTNAME;
 import static data.LoginData.LOGIN;
 import static data.LoginData.PASSWORD;

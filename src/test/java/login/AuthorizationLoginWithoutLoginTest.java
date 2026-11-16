@@ -4,7 +4,6 @@ import io.qameta.allure.Description;
 import model.LoginModel;
 import org.junit.After;
 import org.junit.Test;
-
 import static data.LoginData.PASSWORD;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static steps.LoginSteps.systemLogin;
